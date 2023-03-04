@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.maindiv-container {
+  background-color: rgb(127, 163, 163);
+  height: 100vh;
+  width: 100%;
+}
+.image-container {
+  background-image: url("developerImage.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.text-container {
+  margin-left: 40%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+.intro {
+  font-size: 40px;
+  color: red;
+}
+.name {
+  font-size: 25px;
+  color: black;
+}
+.developer-img {
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header-container {
+  height: 20vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+.you {
+  font-size: 80px;
+}
+.card-container {
+  /* background-color: blue; */
+  height: 60vh;
+  width: 100%;
+  display: flex;
+}
+.card1 {
+  /* background-color: rgb(224, 132, 12); */
+  height: 50vh;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: center;
+  box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+}
+.card-img {
+  height: 60%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.card2 {
+  /* background-color: rgb(241, 245, 11); */
+  height: 50vh;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: center;
+  box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+}
+.card3 {
+  /* background-color: rgb(255, 0, 149); */
+  height: 50vh;
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: center;
+  box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 3px 10px -3px rgba(0, 0, 0, 0.75);
+}
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-family: "Dosis", sans-serif;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+.contact-about-container {
+  /* background-color: yellow; */
+  height: 50vh;
+  width: 100%;
+  display: flex;
+}
+.footer {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(9, 4, 51);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.contact-container {
+  /* background-color: bisque; */
+  height: 40vh;
+  width: 30%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20%;
+  border: 2px solid black;
+}
+.header {
+  margin-top: 40px;
+}
+.about-container {
+  /* background-color: chartreuse; */
+  height: 40vh;
+  width: 30%;
+  text-align: center;
+  margin-top: 30px;
+  border: 2px solid black;
+}
