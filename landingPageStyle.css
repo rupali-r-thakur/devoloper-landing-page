@@ -25,8 +25,8 @@
   font-family: "Poppins", sans-serif;
 }
 .intro {
-  font-size: 40px;
-  color: red;
+  font-size: 35px;
+  color: rgb(240, 64, 64);
 }
 .name {
   font-size: 25px;
@@ -122,6 +122,7 @@ p {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Libre Baskerville", serif;
   font-family: "Poppins", sans-serif;
+  font-size: 12px;
 }
 .contact-about-container {
   /* background-color: yellow; */
@@ -140,7 +141,7 @@ p {
 }
 .contact-container {
   /* background-color: bisque; */
-  height: 40vh;
+  height: 44vh;
   width: 30%;
   text-align: center;
   margin-top: 30px;
@@ -148,13 +149,35 @@ p {
   border: 2px solid black;
 }
 .header {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .about-container {
   /* background-color: chartreuse; */
-  height: 40vh;
+  height: 44vh;
   width: 30%;
   text-align: center;
   margin-top: 30px;
   border: 2px solid black;
+}
+input{
+  /* background-color: red; */
+  height: 30px;
+  width: 250px;
+  margin-top: 15px;
+  border: 1px solid gray;
+  outline: none;
+}
+textarea{
+  margin-top: 10px;
+  width: 250px;
+}
+button{
+  height: 30px;
+  width: 110px;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+  font-size: 20px;
 }
